@@ -5,14 +5,20 @@
     {
       "name": "Remove Background",
       "identifier": "sketch-slazzer.slazzer_cmd-identifier",
-      "script": "./slazzer_cmd.js"
+      "script": "__slazzer_cmd.js"
     }
-   
   ],
   "menu": {
     "title": "Slazzer",
     "items": [
       "sketch-slazzer.slazzer_cmd-identifier"
     ]
-  }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "name": "sketch-slazzer",
+  "identifier": "sketch-slazzer",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Slazzer"
 }

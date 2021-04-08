@@ -30,7 +30,7 @@ function getApiKey() {
   // formData.append('output_image_format','binary')
   
 
-  return fetch('https://api.slazzer.com/api/v1/remove_image_background', {
+  return fetch('https://api.slazzer.com/v2.0/remove_image_background', {
     method: 'POST',
     headers: {
       'API-KEY': apiKey
