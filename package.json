@@ -24,6 +24,10 @@
     "@skpm/builder": "^0.7.0"
   },
   "author": "Slazzer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slazzercom/slazzer-sketch.git"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "image-to-base64": "^2.1.1"
